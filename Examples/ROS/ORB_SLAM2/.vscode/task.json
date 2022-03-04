@@ -1,0 +1,16 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "catkin_make", 
+            "type": "shell",  
+            "command": "catkin_make",
+            "args": [],
+            "group": {"kind":"build","isDefault":true},
+            "presentation": {
+                "reveal": "always"
+            },
+            "problemMatcher": "$msCompile"
+        }
+    ]
+}
